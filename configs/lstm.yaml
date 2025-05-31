@@ -1,0 +1,27 @@
+# LSTM模型配置
+model:
+  name: "AirModel"
+  lstm1:
+    input_size: 1
+    hidden_size: 50
+    num_layers: 1
+    batch_first: true
+    dropout: 0.0
+  lstm2:
+    input_size: 50
+    hidden_size: 50
+    num_layers: 1
+    batch_first: true
+    dropout: 0.0
+  linear:
+    input_size: 50
+    output_size: 1
+
+# 训练配置
+training:
+  batch_size: 512
+  learning_rate: 0.01
+  num_epochs: 2000
+  loss_function: "mse"
+  optimizer: "adam"
+  

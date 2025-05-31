@@ -1,0 +1,1098 @@
+/root/zhuqw_paper_lstm/utils.py:74: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:278.)
+  return torch.tensor(X_train), torch.tensor(y_train),torch.tensor(X_test), torch.tensor(y_test)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([64, 1, 1])) that is different to the input size (torch.Size([64, 64, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([13, 1, 1])) that is different to the input size (torch.Size([13, 13, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11428, 1, 1])) that is different to the input size (torch.Size([11428, 11428, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([14, 1, 1])) that is different to the input size (torch.Size([14, 14, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([15, 1, 1])) that is different to the input size (torch.Size([15, 15, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([16, 1, 1])) that is different to the input size (torch.Size([16, 16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11429, 1, 1])) that is different to the input size (torch.Size([11429, 11429, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([17, 1, 1])) that is different to the input size (torch.Size([17, 17, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([18, 1, 1])) that is different to the input size (torch.Size([18, 18, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([19, 1, 1])) that is different to the input size (torch.Size([19, 19, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([20, 1, 1])) that is different to the input size (torch.Size([20, 20, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11430, 1, 1])) that is different to the input size (torch.Size([11430, 11430, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([21, 1, 1])) that is different to the input size (torch.Size([21, 21, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([22, 1, 1])) that is different to the input size (torch.Size([22, 22, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([23, 1, 1])) that is different to the input size (torch.Size([23, 23, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([24, 1, 1])) that is different to the input size (torch.Size([24, 24, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11431, 1, 1])) that is different to the input size (torch.Size([11431, 11431, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([25, 1, 1])) that is different to the input size (torch.Size([25, 25, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([26, 1, 1])) that is different to the input size (torch.Size([26, 26, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([27, 1, 1])) that is different to the input size (torch.Size([27, 27, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([28, 1, 1])) that is different to the input size (torch.Size([28, 28, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11432, 1, 1])) that is different to the input size (torch.Size([11432, 11432, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([29, 1, 1])) that is different to the input size (torch.Size([29, 29, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([30, 1, 1])) that is different to the input size (torch.Size([30, 30, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([31, 1, 1])) that is different to the input size (torch.Size([31, 31, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([32, 1, 1])) that is different to the input size (torch.Size([32, 32, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11433, 1, 1])) that is different to the input size (torch.Size([11433, 11433, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([33, 1, 1])) that is different to the input size (torch.Size([33, 33, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([34, 1, 1])) that is different to the input size (torch.Size([34, 34, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([35, 1, 1])) that is different to the input size (torch.Size([35, 35, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([36, 1, 1])) that is different to the input size (torch.Size([36, 36, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11434, 1, 1])) that is different to the input size (torch.Size([11434, 11434, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([37, 1, 1])) that is different to the input size (torch.Size([37, 37, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([38, 1, 1])) that is different to the input size (torch.Size([38, 38, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([39, 1, 1])) that is different to the input size (torch.Size([39, 39, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([40, 1, 1])) that is different to the input size (torch.Size([40, 40, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11435, 1, 1])) that is different to the input size (torch.Size([11435, 11435, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([41, 1, 1])) that is different to the input size (torch.Size([41, 41, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([42, 1, 1])) that is different to the input size (torch.Size([42, 42, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([43, 1, 1])) that is different to the input size (torch.Size([43, 43, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([44, 1, 1])) that is different to the input size (torch.Size([44, 44, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11436, 1, 1])) that is different to the input size (torch.Size([11436, 11436, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([45, 1, 1])) that is different to the input size (torch.Size([45, 45, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([46, 1, 1])) that is different to the input size (torch.Size([46, 46, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([47, 1, 1])) that is different to the input size (torch.Size([47, 47, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([48, 1, 1])) that is different to the input size (torch.Size([48, 48, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11437, 1, 1])) that is different to the input size (torch.Size([11437, 11437, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([49, 1, 1])) that is different to the input size (torch.Size([49, 49, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([50, 1, 1])) that is different to the input size (torch.Size([50, 50, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([51, 1, 1])) that is different to the input size (torch.Size([51, 51, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([52, 1, 1])) that is different to the input size (torch.Size([52, 52, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11438, 1, 1])) that is different to the input size (torch.Size([11438, 11438, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([53, 1, 1])) that is different to the input size (torch.Size([53, 53, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([54, 1, 1])) that is different to the input size (torch.Size([54, 54, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+torch.Size([57137, 100, 1]) torch.Size([57137, 1, 1])
+torch.Size([1326, 100, 1]) torch.Size([1326, 1, 1])
+Early stopping
+训练时间: 94.72751998901367 秒
+torch.Size([57138, 100, 1]) torch.Size([57138, 1, 1])
+torch.Size([1325, 100, 1]) torch.Size([1325, 1, 1])
+Early stopping
+训练时间: 199.9959273338318 秒
+torch.Size([57139, 100, 1]) torch.Size([57139, 1, 1])
+torch.Size([1324, 100, 1]) torch.Size([1324, 1, 1])
+Early stopping
+训练时间: 429.88410544395447 秒
+torch.Size([57140, 100, 1]) torch.Size([57140, 1, 1])
+torch.Size([1323, 100, 1]) torch.Size([1323, 1, 1])
+Early stopping
+训练时间: 637.5192897319794 秒
+torch.Size([57141, 100, 1]) torch.Size([57141, 1, 1])
+torch.Size([1322, 100, 1]) torch.Size([1322, 1, 1])
+Early stopping
+训练时间: 1053.4759902954102 秒
+torch.Size([57142, 100, 1]) torch.Size([57142, 1, 1])
+torch.Size([1321, 100, 1]) torch.Size([1321, 1, 1])
+Early stopping
+训练时间: 1368.7435848712921 秒
+torch.Size([57143, 100, 1]) torch.Size([57143, 1, 1])
+torch.Size([1320, 100, 1]) torch.Size([1320, 1, 1])
+Early stopping
+训练时间: 1827.664740562439 秒
+torch.Size([57144, 100, 1]) torch.Size([57144, 1, 1])
+torch.Size([1319, 100, 1]) torch.Size([1319, 1, 1])
+Early stopping
+训练时间: 2040.5204768180847 秒
+torch.Size([57145, 100, 1]) torch.Size([57145, 1, 1])
+torch.Size([1318, 100, 1]) torch.Size([1318, 1, 1])
+Early stopping
+训练时间: 2263.171751499176 秒
+torch.Size([57146, 100, 1]) torch.Size([57146, 1, 1])
+torch.Size([1317, 100, 1]) torch.Size([1317, 1, 1])
+Early stopping
+训练时间: 2426.131990671158 秒
+torch.Size([57147, 100, 1]) torch.Size([57147, 1, 1])
+torch.Size([1316, 100, 1]) torch.Size([1316, 1, 1])
+Early stopping
+训练时间: 2540.7751138210297 秒
+torch.Size([57148, 100, 1]) torch.Size([57148, 1, 1])
+torch.Size([1315, 100, 1]) torch.Size([1315, 1, 1])
+Early stopping
+训练时间: 2616.974453687668 秒
+torch.Size([57149, 100, 1]) torch.Size([57149, 1, 1])
+torch.Size([1314, 100, 1]) torch.Size([1314, 1, 1])
+Early stopping
+训练时间: 2691.6023161411285 秒
+torch.Size([57150, 100, 1]) torch.Size([57150, 1, 1])
+torch.Size([1313, 100, 1]) torch.Size([1313, 1, 1])
+Early stopping
+训练时间: 2934.3436155319214 秒
+torch.Size([57151, 100, 1]) torch.Size([57151, 1, 1])
+torch.Size([1312, 100, 1]) torch.Size([1312, 1, 1])
+Early stopping
+训练时间: 3040.0340213775635 秒
+torch.Size([57152, 100, 1]) torch.Size([57152, 1, 1])
+torch.Size([1311, 100, 1]) torch.Size([1311, 1, 1])
+Early stopping
+训练时间: 3411.5107984542847 秒
+torch.Size([57153, 100, 1]) torch.Size([57153, 1, 1])
+torch.Size([1310, 100, 1]) torch.Size([1310, 1, 1])
+Early stopping
+训练时间: 3649.6730983257294 秒
+torch.Size([57154, 100, 1]) torch.Size([57154, 1, 1])
+torch.Size([1309, 100, 1]) torch.Size([1309, 1, 1])
+Early stopping
+训练时间: 3780.9181830883026 秒
+torch.Size([57155, 100, 1]) torch.Size([57155, 1, 1])
+torch.Size([1308, 100, 1]) torch.Size([1308, 1, 1])
+Early stopping
+训练时间: 3893.350702524185 秒
+torch.Size([57156, 100, 1]) torch.Size([57156, 1, 1])
+torch.Size([1307, 100, 1]) torch.Size([1307, 1, 1])
+Early stopping
+训练时间: 4177.737277984619 秒
+torch.Size([57157, 100, 1]) torch.Size([57157, 1, 1])
+torch.Size([1306, 100, 1]) torch.Size([1306, 1, 1])
+Early stopping
+训练时间: 4400.173047065735 秒
+torch.Size([57158, 100, 1]) torch.Size([57158, 1, 1])
+torch.Size([1305, 100, 1]) torch.Size([1305, 1, 1])
+Early stopping
+训练时间: 4693.099036216736 秒
+torch.Size([57159, 100, 1]) torch.Size([57159, 1, 1])
+torch.Size([1304, 100, 1]) torch.Size([1304, 1, 1])
+Early stopping
+训练时间: 4879.291070222855 秒
+torch.Size([57160, 100, 1]) torch.Size([57160, 1, 1])
+torch.Size([1303, 100, 1]) torch.Size([1303, 1, 1])
+Early stopping
+训练时间: 5079.8540868759155 秒
+torch.Size([57161, 100, 1]) torch.Size([57161, 1, 1])
+torch.Size([1302, 100, 1]) torch.Size([1302, 1, 1])
+Early stopping
+训练时间: 5224.291284561157 秒
+torch.Size([57162, 100, 1]) torch.Size([57162, 1, 1])
+torch.Size([1301, 100, 1]) torch.Size([1301, 1, 1])
+Early stopping
+训练时间: 5391.708705425262 秒
+torch.Size([57163, 100, 1]) torch.Size([57163, 1, 1])
+torch.Size([1300, 100, 1]) torch.Size([1300, 1, 1])
+Early stopping
+训练时间: 5704.290605545044 秒
+torch.Size([57164, 100, 1]) torch.Size([57164, 1, 1])
+torch.Size([1299, 100, 1]) torch.Size([1299, 1, 1])
+Early stopping
+训练时间: 5867.08500957489 秒
+torch.Size([57165, 100, 1]) torch.Size([57165, 1, 1])
+torch.Size([1298, 100, 1]) torch.Size([1298, 1, 1])
+Early stopping
+训练时间: 6016.173174858093 秒
+torch.Size([57166, 100, 1]) torch.Size([57166, 1, 1])
+torch.Size([1297, 100, 1]) torch.Size([1297, 1, 1])
+Early stopping
+训练时间: 6355.852586984634 秒
+torch.Size([57167, 100, 1]) torch.Size([57167, 1, 1])
+torch.Size([1296, 100, 1]) torch.Size([1296, 1, 1])
+Early stopping
+训练时间: 6568.782822847366 秒
+torch.Size([57168, 100, 1]) torch.Size([57168, 1, 1])
+torch.Size([1295, 100, 1]) torch.Size([1295, 1, 1])
+Early stopping
+训练时间: 6793.341948270798 秒
+torch.Size([57169, 100, 1]) torch.Size([57169, 1, 1])
+torch.Size([1294, 100, 1]) torch.Size([1294, 1, 1])
+Early stopping
+训练时间: 7231.297537088394 秒
+torch.Size([57170, 100, 1]) torch.Size([57170, 1, 1])
+torch.Size([1293, 100, 1]) torch.Size([1293, 1, 1])
+Early stopping
+训练时间: 7480.834684848785 秒
+torch.Size([57171, 100, 1]) torch.Size([57171, 1, 1])
+torch.Size([1292, 100, 1]) torch.Size([1292, 1, 1])
+Early stopping
+训练时间: 7687.711400985718 秒
+torch.Size([57172, 100, 1]) torch.Size([57172, 1, 1])
+torch.Size([1291, 100, 1]) torch.Size([1291, 1, 1])
+Early stopping
+训练时间: 8068.720180511475 秒
+torch.Size([57173, 100, 1]) torch.Size([57173, 1, 1])
+torch.Size([1290, 100, 1]) torch.Size([1290, 1, 1])
+Early stopping
+训练时间: 8339.319262742996 秒
+torch.Size([57174, 100, 1]) torch.Size([57174, 1, 1])
+torch.Size([1289, 100, 1]) torch.Size([1289, 1, 1])
+Early stopping
+训练时间: 8439.879550457 秒
+torch.Size([57175, 100, 1]) torch.Size([57175, 1, 1])
+torch.Size([1288, 100, 1]) torch.Size([1288, 1, 1])
+Early stopping
+训练时间: 8695.906916856766 秒
+torch.Size([57176, 100, 1]) torch.Size([57176, 1, 1])
+torch.Size([1287, 100, 1]) torch.Size([1287, 1, 1])
+Early stopping
+训练时间: 8912.016542196274 秒
+torch.Size([57177, 100, 1]) torch.Size([57177, 1, 1])
+torch.Size([1286, 100, 1]) torch.Size([1286, 1, 1])
+Early stopping
+训练时间: 9121.230664491653 秒
+torch.Size([57178, 100, 1]) torch.Size([57178, 1, 1])
+torch.Size([1285, 100, 1]) torch.Size([1285, 1, 1])
+Early stopping
+训练时间: 9230.099658489227 秒
+torch.Size([57179, 100, 1]) torch.Size([57179, 1, 1])
+torch.Size([1284, 100, 1]) torch.Size([1284, 1, 1])
+Early stopping
+训练时间: 9562.863607883453 秒
+torch.Size([57180, 100, 1]) torch.Size([57180, 1, 1])
+torch.Size([1283, 100, 1]) torch.Size([1283, 1, 1])
+Early stopping
+训练时间: 9799.978018760681 秒
+torch.Size([57181, 100, 1]) torch.Size([57181, 1, 1])
+torch.Size([1282, 100, 1]) torch.Size([1282, 1, 1])
+Early stopping
+训练时间: 10124.824277162552 秒
+torch.Size([57182, 100, 1]) torch.Size([57182, 1, 1])
+torch.Size([1281, 100, 1]) torch.Size([1281, 1, 1])
+Early stopping
+训练时间: 10338.665344953537 秒
+torch.Size([57183, 100, 1]) torch.Size([57183, 1, 1])
+torch.Size([1280, 100, 1]) torch.Size([1280, 1, 1])
+Early stopping
+训练时间: 10494.843868970871 秒
+torch.Size([57184, 100, 1]) torch.Size([57184, 1, 1])
+torch.Size([1279, 100, 1]) torch.Size([1279, 1, 1])
+Early stopping
+训练时间: 10771.816863775253 秒
+torch.Size([57185, 100, 1]) torch.Size([57185, 1, 1])
+torch.Size([1278, 100, 1]) torch.Size([1278, 1, 1])
+Early stopping
+训练时间: 10869.12355208397 秒
+torch.Size([57186, 100, 1]) torch.Size([57186, 1, 1])
+torch.Size([1277, 100, 1]) torch.Size([1277, 1, 1])
+Early stopping
+训练时间: 11145.510208368301 秒
+torch.Size([57187, 100, 1]) torch.Size([57187, 1, 1])
+torch.Size([1276, 100, 1]) torch.Size([1276, 1, 1])
+Early stopping
+训练时间: 11213.08649635315 秒
+torch.Size([57188, 100, 1]) torch.Size([57188, 1, 1])
+torch.Size([1275, 100, 1]) torch.Size([1275, 1, 1])
+Early stopping
+训练时间: 11444.866053581238 秒
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([55, 1, 1])) that is different to the input size (torch.Size([55, 55, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([56, 1, 1])) that is different to the input size (torch.Size([56, 56, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11439, 1, 1])) that is different to the input size (torch.Size([11439, 11439, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([57, 1, 1])) that is different to the input size (torch.Size([57, 57, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([58, 1, 1])) that is different to the input size (torch.Size([58, 58, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([59, 1, 1])) that is different to the input size (torch.Size([59, 59, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([60, 1, 1])) that is different to the input size (torch.Size([60, 60, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11440, 1, 1])) that is different to the input size (torch.Size([11440, 11440, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([61, 1, 1])) that is different to the input size (torch.Size([61, 61, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([62, 1, 1])) that is different to the input size (torch.Size([62, 62, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([63, 1, 1])) that is different to the input size (torch.Size([63, 63, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11441, 1, 1])) that is different to the input size (torch.Size([11441, 11441, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([2, 1, 1])) that is different to the input size (torch.Size([2, 2, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([3, 1, 1])) that is different to the input size (torch.Size([3, 3, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([4, 1, 1])) that is different to the input size (torch.Size([4, 4, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11442, 1, 1])) that is different to the input size (torch.Size([11442, 11442, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([5, 1, 1])) that is different to the input size (torch.Size([5, 5, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([6, 1, 1])) that is different to the input size (torch.Size([6, 6, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([7, 1, 1])) that is different to the input size (torch.Size([7, 7, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([8, 1, 1])) that is different to the input size (torch.Size([8, 8, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11443, 1, 1])) that is different to the input size (torch.Size([11443, 11443, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([9, 1, 1])) that is different to the input size (torch.Size([9, 9, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([10, 1, 1])) that is different to the input size (torch.Size([10, 10, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11, 1, 1])) that is different to the input size (torch.Size([11, 11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([12, 1, 1])) that is different to the input size (torch.Size([12, 12, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11444, 1, 1])) that is different to the input size (torch.Size([11444, 11444, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11445, 1, 1])) that is different to the input size (torch.Size([11445, 11445, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11446, 1, 1])) that is different to the input size (torch.Size([11446, 11446, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11447, 1, 1])) that is different to the input size (torch.Size([11447, 11447, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11448, 1, 1])) that is different to the input size (torch.Size([11448, 11448, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+torch.Size([57189, 100, 1]) torch.Size([57189, 1, 1])
+torch.Size([1274, 100, 1]) torch.Size([1274, 1, 1])
+Early stopping
+训练时间: 11556.15205192566 秒
+torch.Size([57190, 100, 1]) torch.Size([57190, 1, 1])
+torch.Size([1273, 100, 1]) torch.Size([1273, 1, 1])
+Early stopping
+训练时间: 11731.587503194809 秒
+torch.Size([57191, 100, 1]) torch.Size([57191, 1, 1])
+torch.Size([1272, 100, 1]) torch.Size([1272, 1, 1])
+Early stopping
+训练时间: 11907.619921922684 秒
+torch.Size([57192, 100, 1]) torch.Size([57192, 1, 1])
+torch.Size([1271, 100, 1]) torch.Size([1271, 1, 1])
+Early stopping
+训练时间: 12209.17074751854 秒
+torch.Size([57193, 100, 1]) torch.Size([57193, 1, 1])
+torch.Size([1270, 100, 1]) torch.Size([1270, 1, 1])
+Early stopping
+训练时间: 12440.703825235367 秒
+torch.Size([57194, 100, 1]) torch.Size([57194, 1, 1])
+torch.Size([1269, 100, 1]) torch.Size([1269, 1, 1])
+Early stopping
+训练时间: 12567.828206062317 秒
+torch.Size([57195, 100, 1]) torch.Size([57195, 1, 1])
+torch.Size([1268, 100, 1]) torch.Size([1268, 1, 1])
+Early stopping
+训练时间: 12919.081684827805 秒
+torch.Size([57196, 100, 1]) torch.Size([57196, 1, 1])
+torch.Size([1267, 100, 1]) torch.Size([1267, 1, 1])
+Early stopping
+训练时间: 13152.727661371231 秒
+torch.Size([57197, 100, 1]) torch.Size([57197, 1, 1])
+torch.Size([1266, 100, 1]) torch.Size([1266, 1, 1])
+Early stopping
+训练时间: 13430.218235731125 秒
+torch.Size([57198, 100, 1]) torch.Size([57198, 1, 1])
+torch.Size([1265, 100, 1]) torch.Size([1265, 1, 1])
+Early stopping
+训练时间: 13612.138195514679 秒
+torch.Size([57199, 100, 1]) torch.Size([57199, 1, 1])
+torch.Size([1264, 100, 1]) torch.Size([1264, 1, 1])
+Early stopping
+训练时间: 13771.088589906693 秒
+torch.Size([57200, 100, 1]) torch.Size([57200, 1, 1])
+torch.Size([1263, 100, 1]) torch.Size([1263, 1, 1])
+Early stopping
+训练时间: 14136.682496786118 秒
+torch.Size([57201, 100, 1]) torch.Size([57201, 1, 1])
+torch.Size([1262, 100, 1]) torch.Size([1262, 1, 1])
+Early stopping
+训练时间: 14377.570495843887 秒
+torch.Size([57202, 100, 1]) torch.Size([57202, 1, 1])
+torch.Size([1261, 100, 1]) torch.Size([1261, 1, 1])
+Early stopping
+训练时间: 14669.527334213257 秒
+torch.Size([57203, 100, 1]) torch.Size([57203, 1, 1])
+torch.Size([1260, 100, 1]) torch.Size([1260, 1, 1])
+Early stopping
+训练时间: 14800.64351940155 秒
+torch.Size([57204, 100, 1]) torch.Size([57204, 1, 1])
+torch.Size([1259, 100, 1]) torch.Size([1259, 1, 1])
+Early stopping
+训练时间: 14887.267761945724 秒
+torch.Size([57205, 100, 1]) torch.Size([57205, 1, 1])
+torch.Size([1258, 100, 1]) torch.Size([1258, 1, 1])
+Early stopping
+训练时间: 15131.466665744781 秒
+torch.Size([57206, 100, 1]) torch.Size([57206, 1, 1])
+torch.Size([1257, 100, 1]) torch.Size([1257, 1, 1])
+Early stopping
+训练时间: 15284.035239934921 秒
+torch.Size([57207, 100, 1]) torch.Size([57207, 1, 1])
+torch.Size([1256, 100, 1]) torch.Size([1256, 1, 1])
+Early stopping
+训练时间: 15466.44514799118 秒
+torch.Size([57208, 100, 1]) torch.Size([57208, 1, 1])
+torch.Size([1255, 100, 1]) torch.Size([1255, 1, 1])
+Early stopping
+训练时间: 15628.852259874344 秒
+torch.Size([57209, 100, 1]) torch.Size([57209, 1, 1])
+torch.Size([1254, 100, 1]) torch.Size([1254, 1, 1])
+Early stopping
+训练时间: 15830.615485668182 秒
+torch.Size([57210, 100, 1]) torch.Size([57210, 1, 1])
+torch.Size([1253, 100, 1]) torch.Size([1253, 1, 1])
+Early stopping
+训练时间: 16051.888335704803 秒
+torch.Size([57211, 100, 1]) torch.Size([57211, 1, 1])
+torch.Size([1252, 100, 1]) torch.Size([1252, 1, 1])
+Early stopping
+训练时间: 16186.489748001099 秒
+torch.Size([57212, 100, 1]) torch.Size([57212, 1, 1])
+torch.Size([1251, 100, 1]) torch.Size([1251, 1, 1])
+Early stopping
+训练时间: 16545.318484306335 秒
+torch.Size([57213, 100, 1]) torch.Size([57213, 1, 1])
+torch.Size([1250, 100, 1]) torch.Size([1250, 1, 1])
+Early stopping
+训练时间: 16803.442937850952 秒
+torch.Size([57214, 100, 1]) torch.Size([57214, 1, 1])
+torch.Size([1249, 100, 1]) torch.Size([1249, 1, 1])
+Early stopping
+训练时间: 17071.268800258636 秒
+torch.Size([57215, 100, 1]) torch.Size([57215, 1, 1])
+torch.Size([1248, 100, 1]) torch.Size([1248, 1, 1])
+Early stopping
+训练时间: 17539.671411275864 秒
+torch.Size([57216, 100, 1]) torch.Size([57216, 1, 1])
+torch.Size([1247, 100, 1]) torch.Size([1247, 1, 1])
+Early stopping
+训练时间: 17991.425065994263 秒
+torch.Size([57217, 100, 1]) torch.Size([57217, 1, 1])
+torch.Size([1246, 100, 1]) torch.Size([1246, 1, 1])
+Early stopping
+训练时间: 18379.55222940445 秒
+torch.Size([57218, 100, 1]) torch.Size([57218, 1, 1])
+torch.Size([1245, 100, 1]) torch.Size([1245, 1, 1])
+Early stopping
+训练时间: 18508.732412338257 秒
+torch.Size([57219, 100, 1]) torch.Size([57219, 1, 1])
+torch.Size([1244, 100, 1]) torch.Size([1244, 1, 1])
+Early stopping
+训练时间: 18772.07131409645 秒
+torch.Size([57220, 100, 1]) torch.Size([57220, 1, 1])
+torch.Size([1243, 100, 1]) torch.Size([1243, 1, 1])
+Early stopping
+训练时间: 18852.888867616653 秒
+torch.Size([57221, 100, 1]) torch.Size([57221, 1, 1])
+torch.Size([1242, 100, 1]) torch.Size([1242, 1, 1])
+Early stopping
+训练时间: 19158.971202611923 秒
+torch.Size([57222, 100, 1]) torch.Size([57222, 1, 1])
+torch.Size([1241, 100, 1]) torch.Size([1241, 1, 1])
+Early stopping
+训练时间: 19276.727655410767 秒
+torch.Size([57223, 100, 1]) torch.Size([57223, 1, 1])
+torch.Size([1240, 100, 1]) torch.Size([1240, 1, 1])
+Early stopping
+训练时间: 19399.88596701622 秒
+torch.Size([57224, 100, 1]) torch.Size([57224, 1, 1])
+torch.Size([1239, 100, 1]) torch.Size([1239, 1, 1])
+Early stopping
+训练时间: 19725.623663663864 秒
+torch.Size([57225, 100, 1]) torch.Size([57225, 1, 1])
+torch.Size([1238, 100, 1]) torch.Size([1238, 1, 1])
+Early stopping
+训练时间: 19982.39642715454 秒
+torch.Size([57226, 100, 1]) torch.Size([57226, 1, 1])
+torch.Size([1237, 100, 1]) torch.Size([1237, 1, 1])
+Early stopping
+训练时间: 20232.623163461685 秒
+torch.Size([57227, 100, 1]) torch.Size([57227, 1, 1])
+torch.Size([1236, 100, 1]) torch.Size([1236, 1, 1])
+Early stopping
+训练时间: 20470.6084048748 秒
+torch.Size([57228, 100, 1]) torch.Size([57228, 1, 1])
+torch.Size([1235, 100, 1]) torch.Size([1235, 1, 1])
+Early stopping
+训练时间: 20744.854157686234 秒
+torch.Size([57229, 100, 1]) torch.Size([57229, 1, 1])
+torch.Size([1234, 100, 1]) torch.Size([1234, 1, 1])
+Early stopping
+训练时间: 20915.433549165726 秒
+torch.Size([57230, 100, 1]) torch.Size([57230, 1, 1])
+torch.Size([1233, 100, 1]) torch.Size([1233, 1, 1])
+Early stopping
+训练时间: 21066.1162378788 秒
+torch.Size([57231, 100, 1]) torch.Size([57231, 1, 1])
+torch.Size([1232, 100, 1]) torch.Size([1232, 1, 1])
+Early stopping
+训练时间: 21210.236909627914 秒
+torch.Size([57232, 100, 1]) torch.Size([57232, 1, 1])
+torch.Size([1231, 100, 1]) torch.Size([1231, 1, 1])
+Early stopping
+训练时间: 21450.882405996323 秒
+torch.Size([57233, 100, 1]) torch.Size([57233, 1, 1])
+torch.Size([1230, 100, 1]) torch.Size([1230, 1, 1])
+Early stopping
+训练时间: 21586.000669956207 秒
+torch.Size([57234, 100, 1]) torch.Size([57234, 1, 1])
+torch.Size([1229, 100, 1]) torch.Size([1229, 1, 1])
+Early stopping
+训练时间: 21673.758021116257 秒
+torch.Size([57235, 100, 1]) torch.Size([57235, 1, 1])
+torch.Size([1228, 100, 1]) torch.Size([1228, 1, 1])
+Early stopping
+训练时间: 21750.18961906433 秒
+torch.Size([57236, 100, 1]) torch.Size([57236, 1, 1])
+torch.Size([1227, 100, 1]) torch.Size([1227, 1, 1])
+Early stopping
+训练时间: 22176.27758717537 秒
+torch.Size([57237, 100, 1]) torch.Size([57237, 1, 1])
+torch.Size([1226, 100, 1]) torch.Size([1226, 1, 1])
+Early stopping
+训练时间: 22395.442066431046 秒
+torch.Size([57238, 100, 1]) torch.Size([57238, 1, 1])
+torch.Size([1225, 100, 1]) torch.Size([1225, 1, 1])
+Early stopping
+训练时间: 22627.154627799988 秒
+torch.Size([57239, 100, 1]) torch.Size([57239, 1, 1])
+torch.Size([1224, 100, 1]) torch.Size([1224, 1, 1])
+Early stopping
+训练时间: 22869.234060525894 秒
+torch.Size([57240, 100, 1]) torch.Size([57240, 1, 1])
+torch.Size([1223, 100, 1]) torch.Size([1223, 1, 1])
+Early stopping
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11449, 1, 1])) that is different to the input size (torch.Size([11449, 11449, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11450, 1, 1])) that is different to the input size (torch.Size([11450, 11450, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11451, 1, 1])) that is different to the input size (torch.Size([11451, 11451, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11452, 1, 1])) that is different to the input size (torch.Size([11452, 11452, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11453, 1, 1])) that is different to the input size (torch.Size([11453, 11453, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11454, 1, 1])) that is different to the input size (torch.Size([11454, 11454, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11455, 1, 1])) that is different to the input size (torch.Size([11455, 11455, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11456, 1, 1])) that is different to the input size (torch.Size([11456, 11456, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11457, 1, 1])) that is different to the input size (torch.Size([11457, 11457, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11458, 1, 1])) that is different to the input size (torch.Size([11458, 11458, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11459, 1, 1])) that is different to the input size (torch.Size([11459, 11459, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+训练时间: 23165.198684692383 秒
+torch.Size([57241, 100, 1]) torch.Size([57241, 1, 1])
+torch.Size([1222, 100, 1]) torch.Size([1222, 1, 1])
+Early stopping
+训练时间: 23243.660123109818 秒
+torch.Size([57242, 100, 1]) torch.Size([57242, 1, 1])
+torch.Size([1221, 100, 1]) torch.Size([1221, 1, 1])
+Early stopping
+训练时间: 23504.61986875534 秒
+torch.Size([57243, 100, 1]) torch.Size([57243, 1, 1])
+torch.Size([1220, 100, 1]) torch.Size([1220, 1, 1])
+Early stopping
+训练时间: 23592.5639667511 秒
+torch.Size([57244, 100, 1]) torch.Size([57244, 1, 1])
+torch.Size([1219, 100, 1]) torch.Size([1219, 1, 1])
+Early stopping
+训练时间: 23677.379821538925 秒
+torch.Size([57245, 100, 1]) torch.Size([57245, 1, 1])
+torch.Size([1218, 100, 1]) torch.Size([1218, 1, 1])
+Early stopping
+训练时间: 23930.874366283417 秒
+torch.Size([57246, 100, 1]) torch.Size([57246, 1, 1])
+torch.Size([1217, 100, 1]) torch.Size([1217, 1, 1])
+Early stopping
+训练时间: 24022.159934282303 秒
+torch.Size([57247, 100, 1]) torch.Size([57247, 1, 1])
+torch.Size([1216, 100, 1]) torch.Size([1216, 1, 1])
+Early stopping
+训练时间: 24182.114550113678 秒
+torch.Size([57248, 100, 1]) torch.Size([57248, 1, 1])
+torch.Size([1215, 100, 1]) torch.Size([1215, 1, 1])
+Early stopping
+训练时间: 24341.964220046997 秒
+torch.Size([57249, 100, 1]) torch.Size([57249, 1, 1])
+torch.Size([1214, 100, 1]) torch.Size([1214, 1, 1])
+Early stopping
+训练时间: 24444.901188373566 秒
+torch.Size([57250, 100, 1]) torch.Size([57250, 1, 1])
+torch.Size([1213, 100, 1]) torch.Size([1213, 1, 1])
+Early stopping
+训练时间: 24552.145812034607 秒
+torch.Size([57251, 100, 1]) torch.Size([57251, 1, 1])
+torch.Size([1212, 100, 1]) torch.Size([1212, 1, 1])
+Early stopping
+训练时间: 24801.544534921646 秒
+torch.Size([57252, 100, 1]) torch.Size([57252, 1, 1])
+torch.Size([1211, 100, 1]) torch.Size([1211, 1, 1])
+Early stopping
+训练时间: 24890.18607878685 秒
+torch.Size([57253, 100, 1]) torch.Size([57253, 1, 1])
+torch.Size([1210, 100, 1]) torch.Size([1210, 1, 1])
+Early stopping
+训练时间: 25003.53812813759 秒
+torch.Size([57254, 100, 1]) torch.Size([57254, 1, 1])
+torch.Size([1209, 100, 1]) torch.Size([1209, 1, 1])
+Early stopping
+训练时间: 25163.047616243362 秒
+torch.Size([57255, 100, 1]) torch.Size([57255, 1, 1])
+torch.Size([1208, 100, 1]) torch.Size([1208, 1, 1])
+Early stopping
+训练时间: 25471.09928393364 秒
+torch.Size([57256, 100, 1]) torch.Size([57256, 1, 1])
+torch.Size([1207, 100, 1]) torch.Size([1207, 1, 1])
+Early stopping
+训练时间: 25752.949549913406 秒
+torch.Size([57257, 100, 1]) torch.Size([57257, 1, 1])
+torch.Size([1206, 100, 1]) torch.Size([1206, 1, 1])
+Early stopping
+训练时间: 25965.43564724922 秒
+torch.Size([57258, 100, 1]) torch.Size([57258, 1, 1])
+torch.Size([1205, 100, 1]) torch.Size([1205, 1, 1])
+Early stopping
+训练时间: 26046.053426027298 秒
+torch.Size([57259, 100, 1]) torch.Size([57259, 1, 1])
+torch.Size([1204, 100, 1]) torch.Size([1204, 1, 1])
+Early stopping
+训练时间: 26209.08313560486 秒
+torch.Size([57260, 100, 1]) torch.Size([57260, 1, 1])
+torch.Size([1203, 100, 1]) torch.Size([1203, 1, 1])
+Early stopping
+训练时间: 26588.26669025421 秒
+torch.Size([57261, 100, 1]) torch.Size([57261, 1, 1])
+torch.Size([1202, 100, 1]) torch.Size([1202, 1, 1])
+Early stopping
+训练时间: 26662.122139692307 秒
+torch.Size([57262, 100, 1]) torch.Size([57262, 1, 1])
+torch.Size([1201, 100, 1]) torch.Size([1201, 1, 1])
+Early stopping
+训练时间: 26832.26245880127 秒
+torch.Size([57263, 100, 1]) torch.Size([57263, 1, 1])
+torch.Size([1200, 100, 1]) torch.Size([1200, 1, 1])
+Early stopping
+训练时间: 27131.54271221161 秒
+torch.Size([57264, 100, 1]) torch.Size([57264, 1, 1])
+torch.Size([1199, 100, 1]) torch.Size([1199, 1, 1])
+Early stopping
+训练时间: 27435.123291492462 秒
+torch.Size([57265, 100, 1]) torch.Size([57265, 1, 1])
+torch.Size([1198, 100, 1]) torch.Size([1198, 1, 1])
+Early stopping
+训练时间: 27645.834889411926 秒
+torch.Size([57266, 100, 1]) torch.Size([57266, 1, 1])
+torch.Size([1197, 100, 1]) torch.Size([1197, 1, 1])
+Early stopping
+训练时间: 27860.977120399475 秒
+torch.Size([57267, 100, 1]) torch.Size([57267, 1, 1])
+torch.Size([1196, 100, 1]) torch.Size([1196, 1, 1])
+Early stopping
+训练时间: 28070.910959482193 秒
+torch.Size([57268, 100, 1]) torch.Size([57268, 1, 1])
+torch.Size([1195, 100, 1]) torch.Size([1195, 1, 1])
+Early stopping
+训练时间: 28255.19721388817 秒
+torch.Size([57269, 100, 1]) torch.Size([57269, 1, 1])
+torch.Size([1194, 100, 1]) torch.Size([1194, 1, 1])
+Early stopping
+训练时间: 28453.513251781464 秒
+torch.Size([57270, 100, 1]) torch.Size([57270, 1, 1])
+torch.Size([1193, 100, 1]) torch.Size([1193, 1, 1])
+Early stopping
+训练时间: 28631.781700611115 秒
+torch.Size([57271, 100, 1]) torch.Size([57271, 1, 1])
+torch.Size([1192, 100, 1]) torch.Size([1192, 1, 1])
+Early stopping
+训练时间: 28919.15050458908 秒
+torch.Size([57272, 100, 1]) torch.Size([57272, 1, 1])
+torch.Size([1191, 100, 1]) torch.Size([1191, 1, 1])
+Early stopping
+训练时间: 29058.195093870163 秒
+torch.Size([57273, 100, 1]) torch.Size([57273, 1, 1])
+torch.Size([1190, 100, 1]) torch.Size([1190, 1, 1])
+Early stopping
+训练时间: 29238.274077177048 秒
+torch.Size([57274, 100, 1]) torch.Size([57274, 1, 1])
+torch.Size([1189, 100, 1]) torch.Size([1189, 1, 1])
+Early stopping
+训练时间: 29516.57409787178 秒
+torch.Size([57275, 100, 1]) torch.Size([57275, 1, 1])
+torch.Size([1188, 100, 1]) torch.Size([1188, 1, 1])
+Early stopping
+训练时间: 29667.499755620956 秒
+torch.Size([57276, 100, 1]) torch.Size([57276, 1, 1])
+torch.Size([1187, 100, 1]) torch.Size([1187, 1, 1])
+Early stopping
+训练时间: 29816.319107055664 秒
+torch.Size([57277, 100, 1]) torch.Size([57277, 1, 1])
+torch.Size([1186, 100, 1]) torch.Size([1186, 1, 1])
+Early stopping
+训练时间: 29912.878320217133 秒
+torch.Size([57278, 100, 1]) torch.Size([57278, 1, 1])
+torch.Size([1185, 100, 1]) torch.Size([1185, 1, 1])
+Early stopping
+训练时间: 30106.253001213074 秒
+torch.Size([57279, 100, 1]) torch.Size([57279, 1, 1])
+torch.Size([1184, 100, 1]) torch.Size([1184, 1, 1])
+Early stopping
+训练时间: 30365.91656422615 秒
+torch.Size([57280, 100, 1]) torch.Size([57280, 1, 1])
+torch.Size([1183, 100, 1]) torch.Size([1183, 1, 1])
+Early stopping
+训练时间: 30524.382476091385 秒
+torch.Size([57281, 100, 1]) torch.Size([57281, 1, 1])
+torch.Size([1182, 100, 1]) torch.Size([1182, 1, 1])
+Early stopping
+训练时间: 30741.886656045914 秒
+torch.Size([57282, 100, 1]) torch.Size([57282, 1, 1])
+torch.Size([1181, 100, 1]) torch.Size([1181, 1, 1])
+Early stopping
+训练时间: 30944.358491659164 秒
+torch.Size([57283, 100, 1]) torch.Size([57283, 1, 1])
+torch.Size([1180, 100, 1]) torch.Size([1180, 1, 1])
+Early stopping
+训练时间: 31205.21641087532 秒
+torch.Size([57284, 100, 1]) torch.Size([57284, 1, 1])
+torch.Size([1179, 100, 1]) torch.Size([1179, 1, 1])
+Early stopping
+训练时间: 31361.89262533188 秒
+torch.Size([57285, 100, 1]) torch.Size([57285, 1, 1])
+torch.Size([1178, 100, 1]) torch.Size([1178, 1, 1])
+Early stopping
+训练时间: 31516.105486392975 秒
+torch.Size([57286, 100, 1]) torch.Size([57286, 1, 1])
+torch.Size([1177, 100, 1]) torch.Size([1177, 1, 1])
+Early stopping
+训练时间: 31836.02762198448 秒
+torch.Size([57287, 100, 1]) torch.Size([57287, 1, 1])
+torch.Size([1176, 100, 1]) torch.Size([1176, 1, 1])
+Early stopping
+训练时间: 32124.770830631256 秒
+torch.Size([57288, 100, 1]) torch.Size([57288, 1, 1])
+torch.Size([1175, 100, 1]) torch.Size([1175, 1, 1])
+Early stopping
+训练时间: 32205.403553009033 秒
+torch.Size([57289, 100, 1]) torch.Size([57289, 1, 1])
+torch.Size([1174, 100, 1]) torch.Size([1174, 1, 1])
+Early stopping
+训练时间: 32518.97174668312 秒
+torch.Size([57290, 100, 1]) torch.Size([57290, 1, 1])
+torch.Size([1173, 100, 1]) torch.Size([1173, 1, 1])
+Early stopping
+训练时间: 32709.506806135178 秒
+torch.Size([57291, 100, 1]) torch.Size([57291, 1, 1])
+torch.Size([1172, 100, 1]) torch.Size([1172, 1, 1])
+Early stopping
+训练时间: 32910.26701641083 秒
+torch.Size([57292, 100, 1]) torch.Size([57292, 1, 1])
+torch.Size([1171, 100, 1]) torch.Size([1171, 1, 1])
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11460, 1, 1])) that is different to the input size (torch.Size([11460, 11460, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11461, 1, 1])) that is different to the input size (torch.Size([11461, 11461, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11462, 1, 1])) that is different to the input size (torch.Size([11462, 11462, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11463, 1, 1])) that is different to the input size (torch.Size([11463, 11463, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11464, 1, 1])) that is different to the input size (torch.Size([11464, 11464, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11465, 1, 1])) that is different to the input size (torch.Size([11465, 11465, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11466, 1, 1])) that is different to the input size (torch.Size([11466, 11466, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11467, 1, 1])) that is different to the input size (torch.Size([11467, 11467, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11468, 1, 1])) that is different to the input size (torch.Size([11468, 11468, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11469, 1, 1])) that is different to the input size (torch.Size([11469, 11469, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Early stopping
+训练时间: 33110.637650728226 秒
+torch.Size([57293, 100, 1]) torch.Size([57293, 1, 1])
+torch.Size([1170, 100, 1]) torch.Size([1170, 1, 1])
+Early stopping
+训练时间: 33317.66665816307 秒
+torch.Size([57294, 100, 1]) torch.Size([57294, 1, 1])
+torch.Size([1169, 100, 1]) torch.Size([1169, 1, 1])
+Early stopping
+训练时间: 33496.356021642685 秒
+torch.Size([57295, 100, 1]) torch.Size([57295, 1, 1])
+torch.Size([1168, 100, 1]) torch.Size([1168, 1, 1])
+Early stopping
+训练时间: 33658.38854980469 秒
+torch.Size([57296, 100, 1]) torch.Size([57296, 1, 1])
+torch.Size([1167, 100, 1]) torch.Size([1167, 1, 1])
+Early stopping
+训练时间: 33975.36718273163 秒
+torch.Size([57297, 100, 1]) torch.Size([57297, 1, 1])
+torch.Size([1166, 100, 1]) torch.Size([1166, 1, 1])
+Early stopping
+训练时间: 34245.38636279106 秒
+torch.Size([57298, 100, 1]) torch.Size([57298, 1, 1])
+torch.Size([1165, 100, 1]) torch.Size([1165, 1, 1])
+Early stopping
+训练时间: 34411.05092525482 秒
+torch.Size([57299, 100, 1]) torch.Size([57299, 1, 1])
+torch.Size([1164, 100, 1]) torch.Size([1164, 1, 1])
+Early stopping
+训练时间: 34490.76314353943 秒
+torch.Size([57300, 100, 1]) torch.Size([57300, 1, 1])
+torch.Size([1163, 100, 1]) torch.Size([1163, 1, 1])
+Early stopping
+训练时间: 34708.12132382393 秒
+torch.Size([57301, 100, 1]) torch.Size([57301, 1, 1])
+torch.Size([1162, 100, 1]) torch.Size([1162, 1, 1])
+Early stopping
+训练时间: 34828.99856877327 秒
+torch.Size([57302, 100, 1]) torch.Size([57302, 1, 1])
+torch.Size([1161, 100, 1]) torch.Size([1161, 1, 1])
+Early stopping
+训练时间: 35034.0297563076 秒
+torch.Size([57303, 100, 1]) torch.Size([57303, 1, 1])
+torch.Size([1160, 100, 1]) torch.Size([1160, 1, 1])
+Early stopping
+训练时间: 35232.34411096573 秒
+torch.Size([57304, 100, 1]) torch.Size([57304, 1, 1])
+torch.Size([1159, 100, 1]) torch.Size([1159, 1, 1])
+Early stopping
+训练时间: 35404.571676015854 秒
+torch.Size([57305, 100, 1]) torch.Size([57305, 1, 1])
+torch.Size([1158, 100, 1]) torch.Size([1158, 1, 1])
+Early stopping
+训练时间: 35547.09308004379 秒
+torch.Size([57306, 100, 1]) torch.Size([57306, 1, 1])
+torch.Size([1157, 100, 1]) torch.Size([1157, 1, 1])
+Early stopping
+训练时间: 35763.77976465225 秒
+torch.Size([57307, 100, 1]) torch.Size([57307, 1, 1])
+torch.Size([1156, 100, 1]) torch.Size([1156, 1, 1])
+Early stopping
+训练时间: 36112.59975981712 秒
+torch.Size([57308, 100, 1]) torch.Size([57308, 1, 1])
+torch.Size([1155, 100, 1]) torch.Size([1155, 1, 1])
+Early stopping
+训练时间: 36246.78432893753 秒
+torch.Size([57309, 100, 1]) torch.Size([57309, 1, 1])
+torch.Size([1154, 100, 1]) torch.Size([1154, 1, 1])
+Early stopping
+训练时间: 36327.30757236481 秒
+torch.Size([57310, 100, 1]) torch.Size([57310, 1, 1])
+torch.Size([1153, 100, 1]) torch.Size([1153, 1, 1])
+Early stopping
+训练时间: 36522.962142944336 秒
+torch.Size([57311, 100, 1]) torch.Size([57311, 1, 1])
+torch.Size([1152, 100, 1]) torch.Size([1152, 1, 1])
+Early stopping
+训练时间: 36808.202632427216 秒
+torch.Size([57312, 100, 1]) torch.Size([57312, 1, 1])
+torch.Size([1151, 100, 1]) torch.Size([1151, 1, 1])
+Early stopping
+训练时间: 37018.680448293686 秒
+torch.Size([57313, 100, 1]) torch.Size([57313, 1, 1])
+torch.Size([1150, 100, 1]) torch.Size([1150, 1, 1])
+Early stopping
+训练时间: 37150.791733026505 秒
+torch.Size([57314, 100, 1]) torch.Size([57314, 1, 1])
+torch.Size([1149, 100, 1]) torch.Size([1149, 1, 1])
+Early stopping
+训练时间: 37411.18426823616 秒
+torch.Size([57315, 100, 1]) torch.Size([57315, 1, 1])
+torch.Size([1148, 100, 1]) torch.Size([1148, 1, 1])
+Early stopping
+训练时间: 37585.287235975266 秒
+torch.Size([57316, 100, 1]) torch.Size([57316, 1, 1])
+torch.Size([1147, 100, 1]) torch.Size([1147, 1, 1])
+Early stopping
+训练时间: 37798.806104660034 秒
+torch.Size([57317, 100, 1]) torch.Size([57317, 1, 1])
+torch.Size([1146, 100, 1]) torch.Size([1146, 1, 1])
+Early stopping
+训练时间: 38076.35100483894 秒
+torch.Size([57318, 100, 1]) torch.Size([57318, 1, 1])
+torch.Size([1145, 100, 1]) torch.Size([1145, 1, 1])
+Early stopping
+训练时间: 38399.9422147274 秒
+torch.Size([57319, 100, 1]) torch.Size([57319, 1, 1])
+torch.Size([1144, 100, 1]) torch.Size([1144, 1, 1])
+Early stopping
+训练时间: 38473.08394289017 秒
+torch.Size([57320, 100, 1]) torch.Size([57320, 1, 1])
+torch.Size([1143, 100, 1]) torch.Size([1143, 1, 1])
+Early stopping
+训练时间: 38706.97704124451 秒
+torch.Size([57321, 100, 1]) torch.Size([57321, 1, 1])
+torch.Size([1142, 100, 1]) torch.Size([1142, 1, 1])
+Early stopping
+训练时间: 38896.50231838226 秒
+torch.Size([57322, 100, 1]) torch.Size([57322, 1, 1])
+torch.Size([1141, 100, 1]) torch.Size([1141, 1, 1])
+Early stopping
+训练时间: 39152.0031003952 秒
+torch.Size([57323, 100, 1]) torch.Size([57323, 1, 1])
+torch.Size([1140, 100, 1]) torch.Size([1140, 1, 1])
+Early stopping
+训练时间: 39357.21972298622 秒
+torch.Size([57324, 100, 1]) torch.Size([57324, 1, 1])
+torch.Size([1139, 100, 1]) torch.Size([1139, 1, 1])
+Early stopping
+训练时间: 39429.630744457245 秒
+torch.Size([57325, 100, 1]) torch.Size([57325, 1, 1])
+torch.Size([1138, 100, 1]) torch.Size([1138, 1, 1])
+Early stopping
+训练时间: 39659.1246612072 秒
+torch.Size([57326, 100, 1]) torch.Size([57326, 1, 1])
+torch.Size([1137, 100, 1]) torch.Size([1137, 1, 1])
+Early stopping
+训练时间: 39908.561624765396 秒
+torch.Size([57327, 100, 1]) torch.Size([57327, 1, 1])
+torch.Size([1136, 100, 1]) torch.Size([1136, 1, 1])
+Early stopping
+训练时间: 40178.90718245506 秒
+torch.Size([57328, 100, 1]) torch.Size([57328, 1, 1])
+torch.Size([1135, 100, 1]) torch.Size([1135, 1, 1])
+Early stopping
+训练时间: 40252.849111795425 秒
+torch.Size([57329, 100, 1]) torch.Size([57329, 1, 1])
+torch.Size([1134, 100, 1]) torch.Size([1134, 1, 1])
+Early stopping
+训练时间: 40453.324184417725 秒
+torch.Size([57330, 100, 1]) torch.Size([57330, 1, 1])
+torch.Size([1133, 100, 1]) torch.Size([1133, 1, 1])
+Early stopping
+训练时间: 40692.540699481964 秒
+torch.Size([57331, 100, 1]) torch.Size([57331, 1, 1])
+torch.Size([1132, 100, 1]) torch.Size([1132, 1, 1])
+Early stopping
+训练时间: 40923.152999162674 秒
+torch.Size([57332, 100, 1]) torch.Size([57332, 1, 1])
+torch.Size([1131, 100, 1]) torch.Size([1131, 1, 1])
+Early stopping
+训练时间: 41333.15814089775 秒
+torch.Size([57333, 100, 1]) torch.Size([57333, 1, 1])
+torch.Size([1130, 100, 1]) torch.Size([1130, 1, 1])
+Early stopping
+训练时间: 41479.32344126701 秒
+torch.Size([57334, 100, 1]) torch.Size([57334, 1, 1])
+torch.Size([1129, 100, 1]) torch.Size([1129, 1, 1])
+Early stopping
+训练时间: 41709.01303744316 秒
+torch.Size([57335, 100, 1]) torch.Size([57335, 1, 1])
+torch.Size([1128, 100, 1]) torch.Size([1128, 1, 1])
+Early stopping
+训练时间: 41851.3201611042 秒
+torch.Size([57336, 100, 1]) torch.Size([57336, 1, 1])
+torch.Size([1127, 100, 1]) torch.Size([1127, 1, 1])
+Early stopping
+训练时间: 42141.10247087479 秒
+torch.Size([57337, 100, 1]) torch.Size([57337, 1, 1])
+torch.Size([1126, 100, 1]) torch.Size([1126, 1, 1])
+Early stopping
+训练时间: 42373.07250332832 秒
+torch.Size([57338, 100, 1]) torch.Size([57338, 1, 1])
+torch.Size([1125, 100, 1]) torch.Size([1125, 1, 1])
+Early stopping
+训练时间: 42705.122801065445 秒
+torch.Size([57339, 100, 1]) torch.Size([57339, 1, 1])
+torch.Size([1124, 100, 1]) torch.Size([1124, 1, 1])
+Early stopping
+训练时间: 42954.10487532616 秒
+torch.Size([57340, 100, 1]) torch.Size([57340, 1, 1])
+torch.Size([1123, 100, 1]) torch.Size([1123, 1, 1])
+Early stopping
+训练时间: 43177.640043735504 秒
+torch.Size([57341, 100, 1]) torch.Size([57341, 1, 1])
+torch.Size([1122, 100, 1]) torch.Size([1122, 1, 1])
+Early stopping
+训练时间: 43318.44169139862 秒
+torch.Size([57342, 100, 1]) torch.Size([57342, 1, 1])
+torch.Size([1121, 100, 1]) torch.Size([1121, 1, 1])
+Early stopping
+训练时间: 43507.02608084679 秒
+torch.Size([57343, 100, 1]) torch.Size([57343, 1, 1])
+torch.Size([1120, 100, 1]) torch.Size([1120, 1, 1])
+Early stopping
+训练时间: 43710.43685078621 秒
+torch.Size([57344, 100, 1]) torch.Size([57344, 1, 1])
+torch.Size([1119, 100, 1]) torch.Size([1119, 1, 1])
+Early stopping
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11470, 1, 1])) that is different to the input size (torch.Size([11470, 11470, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11471, 1, 1])) that is different to the input size (torch.Size([11471, 11471, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/opt/conda/envs/app/lib/python3.10/site-packages/torch/nn/modules/loss.py:608: UserWarning: Using a target size (torch.Size([11472, 1, 1])) that is different to the input size (torch.Size([11472, 11472, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+训练时间: 43932.85748720169 秒
+torch.Size([57345, 100, 1]) torch.Size([57345, 1, 1])
+torch.Size([1118, 100, 1]) torch.Size([1118, 1, 1])
+Early stopping
+训练时间: 44225.23073506355 秒
+torch.Size([57346, 100, 1]) torch.Size([57346, 1, 1])
+torch.Size([1117, 100, 1]) torch.Size([1117, 1, 1])
+Early stopping
+训练时间: 44760.09712791443 秒
+torch.Size([57347, 100, 1]) torch.Size([57347, 1, 1])
+torch.Size([1116, 100, 1]) torch.Size([1116, 1, 1])
+Early stopping
+训练时间: 45022.77790641785 秒
+torch.Size([57348, 100, 1]) torch.Size([57348, 1, 1])
+torch.Size([1115, 100, 1]) torch.Size([1115, 1, 1])
+Early stopping
+训练时间: 45179.342517614365 秒
+torch.Size([57349, 100, 1]) torch.Size([57349, 1, 1])
+torch.Size([1114, 100, 1]) torch.Size([1114, 1, 1])
+Early stopping
+训练时间: 45375.31903409958 秒
+torch.Size([57350, 100, 1]) torch.Size([57350, 1, 1])
+torch.Size([1113, 100, 1]) torch.Size([1113, 1, 1])
+Early stopping
+训练时间: 45850.60795402527 秒
+torch.Size([57351, 100, 1]) torch.Size([57351, 1, 1])
+torch.Size([1112, 100, 1]) torch.Size([1112, 1, 1])
+Early stopping
+训练时间: 46091.65512013435 秒
+torch.Size([57352, 100, 1]) torch.Size([57352, 1, 1])
+torch.Size([1111, 100, 1]) torch.Size([1111, 1, 1])
+Early stopping
+训练时间: 46223.8545897007 秒
+torch.Size([57353, 100, 1]) torch.Size([57353, 1, 1])
+torch.Size([1110, 100, 1]) torch.Size([1110, 1, 1])
+Early stopping
+训练时间: 46346.935505867004 秒
+torch.Size([57354, 100, 1]) torch.Size([57354, 1, 1])
+torch.Size([1109, 100, 1]) torch.Size([1109, 1, 1])
+Early stopping
+训练时间: 46684.04299402237 秒
+torch.Size([57355, 100, 1]) torch.Size([57355, 1, 1])
+torch.Size([1108, 100, 1]) torch.Size([1108, 1, 1])
+Early stopping
+训练时间: 46940.54489302635 秒
+torch.Size([57356, 100, 1]) torch.Size([57356, 1, 1])
+torch.Size([1107, 100, 1]) torch.Size([1107, 1, 1])
+Early stopping
+训练时间: 47148.430911540985 秒

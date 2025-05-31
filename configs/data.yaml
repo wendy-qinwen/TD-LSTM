@@ -1,0 +1,19 @@
+# 数据配置
+data:
+  lookback: 5
+  train_test_split: 0.67
+  shuffle: true
+  data_path: "data/data.csv"
+  
+# 波动率配置
+volatility:
+  window: 20
+  method: "log_returns"
+
+
+fcnn:
+  input_size: 100
+  hidden_size: 100
+  output_size: 1
+
+

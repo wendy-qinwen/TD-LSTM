@@ -1,0 +1,43 @@
+# LSTM模型配置
+model:
+  name: "AirModel"
+  lstm1:
+    input_size: 1
+    hidden_size: 50
+    num_layers: 1
+    batch_first: true
+    dropout: 0.0
+  lstm2:
+    input_size: 50
+    hidden_size: 50
+    num_layers: 1
+    batch_first: true
+    dropout: 0.0
+  linear:
+    input_size: 50
+    output_size: 1
+
+# 训练配置
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  num_epochs: 100
+  early_stopping_patience: 10
+  early_stopping_min_delta: 0.0001
+  loss_function: "mse"
+  optimizer: "adam"
+  optimizer_params:
+    weight_decay: 0.0001
+    betas: [0.9, 0.999]
+    eps: 1e-8
+  
+# 数据配置
+data:
+  lookback: 5
+  train_test_split: 0.67
+  shuffle: true
+  
+# 波动率配置
+volatility:
+  window: 20
+  method: "log_returns" 
